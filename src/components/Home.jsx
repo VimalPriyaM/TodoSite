@@ -194,11 +194,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='flex flex-row items-start justify-between'>
-      <h1 className='text-black font-semibold text-xl' >NAME : VIMAL PRIYA M</h1>
-     
-      <a className='text-black font-semibold text-xl' href='https://github.com/VimalPriyaM/TodoSite.git'>  <span className='text-black font-semibold text-xl'>Link:  </span>Github</a>\
-      </div>
+
     </div>
   );
 }
