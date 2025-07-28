@@ -9,6 +9,7 @@ function NewTodo() {
   const navigate = useNavigate()
   const formRef = useRef(null);
 
+
   const [formData, setFormData] = useState({
     time: "",
     date: "",
@@ -41,6 +42,7 @@ function NewTodo() {
       text: "Task Added Successfully",
       icon: "success"
     });
+navigate('/')
 
     setFormData({
       time: "",

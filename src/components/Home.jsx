@@ -53,7 +53,7 @@ function Home() {
         <div className="flex justify-between items-center mb-6">
           <button
             onClick={() => setShowSidebar(!showSidebar)}
-            className="text-3xl text-primary hover:text-white transition"
+            className="text-3xl text-primary  transition"
             aria-label="Toggle Sidebar"
           >
             <MdMenu />
